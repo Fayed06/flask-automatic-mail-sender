@@ -11,28 +11,32 @@ This project is a simple web application built using Flask, allowing users to st
 Follow these steps to set up the project environment locally:
 
 1. Clone the repository:
-
 ```
 git clone <repository-url>
 cd <project-folder>
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
+```
+python -m venv env
 
-``python -m venv env``
+source env/bin/activate # For Unix/Linux
 
-``source env/bin/activate # For Unix/Linux``
-
-``\env\Scripts\activate # For Windows``
+\env\Scripts\activate # For Windows
+```
 
 
 3. Install dependencies:
-``pip install -r requirements.txt``
+```
+pip install -r requirements.txt
+```
 
 
 4. Set up environment variables:
 
-``cp .env.example .env``
+```
+cp .env.example .env
+```
 
 Edit the `.env` file and fill in the required configurations.
 
@@ -40,7 +44,9 @@ Edit the `.env` file and fill in the required configurations.
 
 To run the Flask application locally, execute the following command:
 
-``python run.py``
+```
+python run.py
+```
 
 Access the application in your web browser at `http://localhost:5000`.
 
@@ -48,7 +54,9 @@ Access the application in your web browser at `http://localhost:5000`.
 
 To run the unit tests, use the following command:
 
-``python -m unittest discover tests``
+```
+python -m unittest discover tests
+```
 
 
 ## Screenshots
