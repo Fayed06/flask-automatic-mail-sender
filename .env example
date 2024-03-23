@@ -1,5 +1,0 @@
-MAIL_SERVER=smtp.example.com
-MAIL_PORT=587
-MAIL_USE_TLS=true
-MAIL_USERNAME=your_username
-MAIL_PASSWORD=your_password
