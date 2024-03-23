@@ -12,9 +12,10 @@ Follow these steps to set up the project environment locally:
 
 1. Clone the repository:
 
-``git clone <repository-url>``
-
-``cd <project-folder>``
+```
+git clone <repository-url>
+cd <project-folder>
+```
 
 2. Create and activate a virtual environment (optional but recommended):
 
