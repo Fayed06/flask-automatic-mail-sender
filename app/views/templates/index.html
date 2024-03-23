@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Test</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Send Scheduled Email</h1>
+        <form id="emailForm">
+            <label for="event_id">Event ID:</label>
+            <input type="number" id="event_id" name="event_id" required>
+            <label for="email_subject">Email Subject:</label>
+            <input type="text" id="email_subject" name="email_subject" required>
+            <label for="email_content">Email Content:</label>
+            <textarea id="email_content" name="email_content" required></textarea>
+            <label for="timestamp">Timestamp:</label>
+            <input type="datetime-local" id="timestamp" name="timestamp" required>
+            <button type="submit">Send Email</button>
+        </form>
+        <p id="responseMessage"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
