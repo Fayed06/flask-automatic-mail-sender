@@ -61,4 +61,4 @@ python -m unittest discover tests
 
 ## Screenshots
 
-![Screenshot of Landing Page](screenshots/landing_page.png)
+![Screenshot of Landing Page](https://drive.google.com/uc?export=view&id=1LIiviEdsUUbRfDdaAuyyNsF1cIBHrHSp)
